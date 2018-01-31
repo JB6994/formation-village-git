@@ -1,6 +1,6 @@
 package village.dao;
 
-public interface VilleDao extends Dao<>{
+public interface VilleDao {
 
 }
 	
