@@ -1,7 +1,7 @@
 package village.model;
 
 public class Ville {
-	private int id;
+	private Integer id;
 	private String code;
 	private String libele;
 	
@@ -11,10 +11,20 @@ public class Ville {
 		super();
 		
 	}
+	
+	
+	public Ville(Integer id, String code, String libele) {
+		super();
+		this.id = id;
+		this.code = code;
+		this.libele = libele;
+	}
+
+
 	public int getId() {
 		return id;
 	}
-	public void setId(int id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
 	public String getCode() {
